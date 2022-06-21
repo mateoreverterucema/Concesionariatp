@@ -8,7 +8,6 @@ from Concesionaria.src.models.car import Motor, Specs_autos
 from Concesionaria.src.models.purchase_order import Purchase_order
 from Concesionaria.src.db.client_loader import load_clients
 from Concesionaria.src.db.car_loader import load_cars
-from Concesionaria.src.db.client_store import store_client_file
 
 app = Flask(__name__)
 clients: list = load_clients()
@@ -76,23 +75,22 @@ def get_all_cars():
 
 
 @app.route("/api/concesionaria/cars/<car_id>", methods=['GET'])
-def get_car(car_id):
+
+def car_image(car_id):
     for car in cars:
         if car.id == car_id:
-            return jsonify(car.serialize())
+            url = "https://google-image-search1.p.rapidapi.com/v2/"
 
-        url = "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI"
+            querystring = {"q": str(car.model), "hl": "en", "pageNumber": "1", "pageSize": "10", "autoCorrect": "true"}
 
-        querystring = {"q":str(car.model),"pageNumber":"1","pageSize":"1","autoCorrect":"true"}
+            headers = {
+                "X-RapidAPI-Key": "6fb3a57ecemsh3faac6f662be92dp10e7b3jsn35ff00c16d10",
+                "X-RapidAPI-Host": "google-image-search1.p.rapidapi.com"
+            }
 
-        headers = {
-            "X-RapidAPI-Key": "6fb3a57ecemsh3faac6f662be92dp10e7b3jsn35ff00c16d10",
-            "X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
-        }
+            response = requests.request("GET", url, headers=headers, params=querystring)
 
-        response = requests.request("GET", url, headers=headers, params=querystring)
-
-        print(response.text)
+            return response.text
 
 @app.route("/api/concesionaria/cars/", methods=['POST'])
 def create_car():
@@ -165,9 +163,15 @@ def load_purchase_order():
     return purchase_orders
 
 
-@app.route("/api/consesionaria/client_test", methods=['POST'])
-def clients_test_data():
-    store_client_file(clients)
+@app.route("/api/concesionaria/client_test", methods=['POST'])
+def store_client_file(clients_list):
+    with open('Concesionaria/src/db/test.json', 'w') as store_file:
+        json.dump(clients_list, store_file)
+        print(f"client stored")
 
-
-pass
+@app.route("/api/concesionaria/clients/<client_id>", methods=['GET'])
+def delete_client(client_id):
+    for client in clients:
+        if client_id == client.id:
+            client.client_status = "NOT ACTIVE"
+            return client

@@ -22,10 +22,10 @@ class Client:
         self.last_name = last_name
         self.date_of_birth = date_of_birth
         self.gender = gender
-        self.phone_number = phone_number
+        self.phone_number: ClientPhoneNumber = phone_number
         self.email = email
         self.client_status = client_status
-        self.address = client_address
+        self.address: ClientAddress = client_address
 
     def serialize(self):
         return {

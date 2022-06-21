@@ -1,4 +1,3 @@
-
 class Specs_autos:
 
     def __init__(self, id, model, price, body, transmission, power, fuel, top_speed, acceleration_0_100kmh, motor):
@@ -25,6 +24,7 @@ class Specs_autos:
             "acceleration_0_100kmh": self.acceleration_0_100kmh,
             "motor": self.motor.serialize()
         }
+
 
 class Motor:
 

@@ -10,7 +10,7 @@ def load_clients():
         for client in clients_json:
             clients.append(
                 Client(
-                    client['id'],
+                    client["id"],
                     client['date_created'],
                     client['first_name'],
                     client['last_name'],

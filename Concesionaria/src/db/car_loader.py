@@ -10,20 +10,20 @@ def load_cars():
         for car in cars_json:
             cars.append(
                 Specs_autos(
+                    car['id'],
                     car['model'],
                     car['price'],
                     car['body'],
                     car['transmission'],
                     car['power'],
                     car['fuel'],
-                    car['top_speed'],
-                    car['acceleration_0_100kmh'],
+                    car['top speed'],
+                    car['acceleration 0-100km/h'],
                     Motor(
-                        car['cylinders'],
-                        car['valves_per_cylinder'],
-                        car['turbo'],
-                        car['fuel_tank_capacity']
-                    )
+                        car["motor"]['cylinders'],
+                        car["motor"]['valves per cylinder'],
+                        car["motor"]['turbo'],
+                        car["motor"]['fuel tank capacity'])
                 )
             )
     return cars
