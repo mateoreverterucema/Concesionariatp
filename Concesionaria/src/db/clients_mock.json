@@ -1,0 +1,68 @@
+[
+  {
+    "id": "6d629460-becd-42ee-a97d-c579200ec010",
+    "date_created": "28/03/2022",
+    "first_name": "Richard",
+    "last_name": "Richardson",
+    "date_of_birth": "18/04/1958",
+    "gender": "M",
+    "phone_number": {
+      "calling_code": "+44",
+      "phone_number": "7862182"
+    },
+    "email": "rrich7@richmail.com",
+    "client_status": "ACTIVE",
+    "client_address": {
+      "street": "Rich People St.",
+      "street_number": "123",
+      "city": "London",
+      "state": "London",
+      "post_code": "3245",
+      "country": "Inglaterra"
+    }
+  },
+  {
+    "id": "801a6164-f6d2-412a-8811-59ee0645f364",
+    "date_created": "04/1/2022",
+    "first_name": "Felipe",
+    "last_name": "Fort",
+    "date_of_birth": "18/04/2003",
+    "gender": "M",
+    "phone_number": {
+      "calling_code": "+54",
+      "phone_number": "12345678"
+    },
+    "email": "ffortinson@fortmail.com",
+    "client_status": "ACTIVE",
+    "client_address": {
+      "street": "Av. Libertador",
+      "street_number": "932",
+      "city": "CABA",
+      "state": "Buenos Aires",
+      "post_code": "1882",
+      "country": "Argentina"
+    }
+  },
+  {
+    "id": "0c932b18-7f6e-412b-9704-ce0134e25b9a",
+    "date_created": "18/05/2022",
+    "first_name": "Monique",
+    "last_name": "Blake",
+    "date_of_birth": "18/04/1994",
+    "gender": "F",
+    "phone_number": {
+      "calling_code": "+55",
+      "phone_number": "54682318"
+    },
+    "email": "monbla@monmail.com",
+    "client_status": "ACTIVE",
+    "client_address": {
+      "street": "Pelele",
+      "street_number": "427",
+      "city": "Sao Paulo",
+      "state": "Estado de Sao Paulo",
+      "post_code": "6435",
+      "country": "Brasil"
+    }
+  }
+]

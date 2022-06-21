@@ -1,0 +1,178 @@
+[
+  {"id": "01",
+    "model": "Audi Q3 1.4 2011",
+  "price": "€36.430",
+  "body": "5 Doors, SUV",
+  "transmission": "6 speed, manual transmission",
+  "power": "150 hp",
+  "fuel": "Gasoline",
+  "top speed": "203 km/h",
+  "acceleration 0-100km/h": "9.2s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "yes, with intercooler",
+    "fuel tank capacity": "64L"
+  }
+  },
+  {"id": "02",
+    "model": "BMW X1 SDrive18i 2009",
+  "price": "€36.885",
+  "body": "5 Doors, SUV",
+  "transmission": "6 speed, manual transmission",
+  "power": "150 hp",
+  "fuel": "Gasoline",
+  "top speed": "202 km/h",
+  "acceleration 0-100km/h": "9.7s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "no",
+    "fuel tank capacity": "63L"
+  }
+  },
+  {"id": "03",
+    "model": "Abarth 500C 1.4 16v T-Jet 2010",
+  "price": "€25.500",
+  "body": "3 Doors, Convertible",
+  "transmission": "5 speed, manual transmission",
+  "power": "135 hp",
+  "fuel": "Gasoline",
+  "top speed": "205 km/h",
+  "acceleration 0-100km/h": "7.9s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "yes, with intercooler",
+    "fuel tank capacity": "35L"
+  }
+  },
+  {"id": "04",
+    "model": "Alfa Romeo Spider 2.0 1983",
+  "price": "€23.574",
+  "body": "2 Doors, Convertible",
+  "transmission": "5 speed, manual transmission",
+  "power": "128 hp",
+  "fuel": "Gasoline",
+  "top speed": "190 km/h",
+  "acceleration 0-100km/h": "9.0s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "46L"
+  }
+  },
+  {"id": "05",
+    "model": "Alfa Romeo Spider 2.0 1983",
+  "price": "€23.574",
+  "body": "2 Doors, Convertible",
+  "transmission": "5 speed, manual transmission",
+  "power": "128 hp",
+  "fuel": "Gasoline",
+  "top speed": "190 km/h",
+  "acceleration 0-100km/h": "9.0s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "46L"
+  }
+  },
+  {"id": "06",
+    "model": "Alfa Romeo Brera 2.2 JTS 2006",
+  "price": "€42.370",
+  "body": "3-doors, Coupé",
+  "transmission": "6 speed, manual transmission",
+  "power": "185 hp",
+  "fuel": "Gasoline",
+  "top speed": "222 km/h",
+  "acceleration 0-100km/h": "8.6s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "70L"
+  }
+  },
+  {"id": "07",
+    "model": "Aston Martin V12 Vanquish 2001",
+  "price": "€332.875",
+  "body": "2-doors, Coupé",
+  "transmission": "6 speed, manual transmission",
+  "power": "457 hp",
+  "fuel": "Gasoline",
+  "top speed": "306 km/h",
+  "acceleration 0-100km/h": "4.7s",
+  "motor": {
+    "cylinders": "12, V Engine",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "80L"
+  }
+  },
+  {"id": "08",
+    "model": "Abarth 500 1.4 16v T-Jet 2008",
+  "price": "€23.200",
+  "body": "3-doors, Hatchback",
+  "transmission": "5 speed, manual transmission",
+  "power": "135 hp",
+  "fuel": "Gasoline",
+  "top speed": "205 km/h",
+  "acceleration 0-100km/h": "7.9s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "yes, with intercooler",
+    "fuel tank capacity": "35L"
+  }
+  },
+  {"id": "09",
+    "model": "Alfa Romeo 145 1.4 Twin Spark 16V 1999",
+  "price": "€14.516",
+  "body": "3-doors, Hatchback",
+  "transmission": "5 speed, manual transmission",
+  "power": "103 hp",
+  "fuel": "Gasoline",
+  "top speed": "185 km/h",
+  "acceleration 0-100km/h": "11.2s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "51L"
+  }
+  },
+  {"id": "10",
+    "model": "Alfa Romeo 155 1.7 Twin Spark 1993",
+  "price": "€17.471",
+  "body": "4-doors, Sedan",
+  "transmission": "5 speed, manual transmission",
+  "power": "116 hp",
+  "fuel": "Gasoline",
+  "top speed": "191 km/h",
+  "acceleration 0-100km/h": "11.8s",
+  "motor": {
+    "cylinders": "4, in line",
+    "valves per cylinder": "2",
+    "turbo": "No",
+    "fuel tank capacity": "63L"
+  }
+  },
+  {"id": "11",
+    "model": "Aston Martin Rapide 2010",
+  "price": "€270.234",
+  "body": "4-doors, Sedan",
+  "transmission": "6 speed, Automatic",
+  "power": "476 hp",
+  "fuel": "Gasoline",
+  "top speed": "303 km/h",
+  "acceleration 0-100km/h": "5.3s",
+  "motor": {
+    "cylinders": "12, V Engine",
+    "valves per cylinder": "4",
+    "turbo": "No",
+    "fuel tank capacity": "91L"
+  }
+  }
+]
