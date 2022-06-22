@@ -44,24 +44,72 @@ class Motor:
 
 
 class SUV(Specs_autos):
+    __Tamanio = "Mediana-Grande"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
 
 
 class Convertible(Specs_autos):
+    __Tamanio = "Mediano"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
 
 
 class Coupe(Specs_autos):
+    __Tamanio = "Mediano"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
 
 
 class Hatchback(Specs_autos):
+    __Tamanio = "Chico-Mediano"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
 
 
 class Sedan(Specs_autos):
+    __Tamanio = "Mediano"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
 
 
 class Pick_up(Specs_autos):
+    __Tamanio = "Grande"
+
+    def ObtenerTamanio(self):
+        return self.__Tamanio
+
+    def avanzar(self):
+        print("Se debe apretar el acelerador")
+
     pass
