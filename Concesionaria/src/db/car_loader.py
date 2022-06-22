@@ -12,7 +12,7 @@ def load_cars():
                 Specs_autos(
                     car['id'],
                     car['model'],
-                    car['price'],
+                    car['price_eur'],
                     car['body'],
                     car['transmission'],
                     car['power'],

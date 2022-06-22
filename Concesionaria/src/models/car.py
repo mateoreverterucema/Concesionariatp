@@ -1,9 +1,9 @@
 class Specs_autos:
 
-    def __init__(self, id, model, price, body, transmission, power, fuel, top_speed, acceleration_0_100kmh, motor):
+    def __init__(self, id, model, price_eur, body, transmission, power, fuel, top_speed, acceleration_0_100kmh, motor):
         self.id = id
         self.model = model
-        self.price = price
+        self.price_eur = price_eur
         self.body = body
         self.transmission = transmission
         self.power = power
@@ -15,13 +15,13 @@ class Specs_autos:
     def serialize(self):
         return {
             "model": self.model,
-            "price": self.price,
+            "price_eur": self.price_eur,
             "body": self.body,
             "transmission": self.transmission,
             "power": self.power,
             "fuel": self.fuel,
-            "top_speed": self.top_speed,
-            "acceleration_0_100kmh": self.acceleration_0_100kmh,
+            "top speed": self.top_speed,
+            "acceleration 0 100km/h": self.acceleration_0_100kmh,
             "motor": self.motor.serialize()
         }
 
@@ -37,9 +37,9 @@ class Motor:
     def serialize(self):
         return {
             "cylinders": self.cylinders,
-            "valves_per_cylinder": self.valves_per_cylinder,
+            "valves per cylinder": self.valves_per_cylinder,
             "turbo": self.turbo,
-            "fuel_tank_capacity": self.fuel_tank_capacity
+            "fuel tank capacity": self.fuel_tank_capacity
         }
 
 
